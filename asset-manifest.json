@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/React-04-Hooks-Gallery-image-finder/static/css/main.7acaea2f.css",
-    "main.js": "/React-04-Hooks-Gallery-image-finder/static/js/main.07d3183d.js",
+    "main.css": "/React-04-Hooks-Gallery-image-finder/static/css/main.8f54465c.css",
+    "main.js": "/React-04-Hooks-Gallery-image-finder/static/js/main.7c746676.js",
     "index.html": "/React-04-Hooks-Gallery-image-finder/index.html",
-    "main.7acaea2f.css.map": "/React-04-Hooks-Gallery-image-finder/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/React-04-Hooks-Gallery-image-finder/static/js/main.07d3183d.js.map"
+    "static/media/search-outline.svg": "/React-04-Hooks-Gallery-image-finder/static/media/search-outline.c3a9b743b3bfe662b714.svg",
+    "main.8f54465c.css.map": "/React-04-Hooks-Gallery-image-finder/static/css/main.8f54465c.css.map",
+    "main.7c746676.js.map": "/React-04-Hooks-Gallery-image-finder/static/js/main.7c746676.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.8f54465c.css",
+    "static/js/main.7c746676.js"
   ]
 }
