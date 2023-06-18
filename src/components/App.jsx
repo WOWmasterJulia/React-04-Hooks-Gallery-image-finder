@@ -10,7 +10,7 @@ import css from './App.module.css'
 
 const PER_PAGE = 12;
 
-export default function App() {
+export const App = () =>{
   const [searchWord, setSearchWord] = useState('')
   const [images, setImages] = useState([])
   const [showModal, setShowModal] = useState(false)
@@ -27,8 +27,9 @@ export default function App() {
   useEffect(() => {
     if (isFetch) {
       setIsFetch(false);
-   //   if (searchWord !== '' || page !== 1) {
-        setIsLoading(true);
+   
+      setIsLoading(true);
+      
         setError(null);
         getImagesAPI(searchWord, page)
           .then(resp => {
