@@ -11,8 +11,12 @@ export const Modal = ({ onClose, bigImage }) => {
 
   useEffect(() => {
       const handleKeyDown = e => { if (e.code === 'Escape') { onClose() } };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => {
+      window.addEventListener('keydown', handleKeyDown);
+      // Заборона скролу під модалкою (3 строки)
+      const tags = document.getElementsByTagName('html');
+      tags[0].style.overflow = 'hidden';
+      return () => {
+      tags[0].style.overflow = 'initial';
       window.removeEventListener('keydown', handleKeyDown);
     };
   }, [onClose]);
