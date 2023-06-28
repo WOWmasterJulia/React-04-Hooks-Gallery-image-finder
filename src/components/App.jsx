@@ -26,12 +26,10 @@ export const App = () =>{
 
   useEffect(() => {
     if (isFetch) {
-      setIsFetch(false);
-   
-      setIsLoading(true);
-      
-        setError(null);
-        getImagesAPI(searchWord, page)
+      setIsFetch(false);   
+      setIsLoading(true);      
+      setError(null);
+      getImagesAPI(searchWord, page)
           .then(resp => {
          //   console.log('use Effect resp', resp);
             if (!resp.length) {
