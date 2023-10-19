@@ -1,3 +1,19 @@
+# GALLERY with button | REACT (Hooks)
+
+![Gallery with button](./assets/Gallery_hooks_1.jpg)
+![Gallery with button](./assets/Gallery_hooks_2.jpg)
+
+## Технічний стек / Technical stack
+
+![React](https://img.shields.io/badge/React-%23007ACC.svg?style=for-the-badge&logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-%23000000.svg?style=for-the-badge&logo=axios&logoColor=white)
+
+<!-- ![Axios](https://img.shields.io/badge/Axios-%23000000) -->
+![Pixabay](https://img.shields.io/badge/pixabay-%23%232EC66D
+)
+
+
+
 # React homework template
 
 Этот проект был создан при помощи
