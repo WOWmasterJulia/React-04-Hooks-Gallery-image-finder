@@ -1,4 +1,4 @@
-# GALLERY with button | REACT (Hooks)
+# PIXABAY GALLERY with button | REACT (Hooks)
 
 ![Gallery with button](./assets/Gallery_hooks_1.jpg)
 ![Gallery with button](./assets/Gallery_hooks_2.jpg)
